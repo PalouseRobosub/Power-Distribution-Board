@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "XT90PB-F")(type "KiCad")(uri "${KIPRJMOD}/Library/XT90PB-F")(options "")(descr ""))
+  (lib (name "XT60PB-F")(type "KiCad")(uri "${KIPRJMOD}/Library/XT60PB-F")(options "")(descr ""))
+  (lib (name "XT30UPB-F")(type "KiCad")(uri "${KIPRJMOD}/Library/XT30UPB-F")(options "")(descr ""))
+)
