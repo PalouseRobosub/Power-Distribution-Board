@@ -1,9 +1,9 @@
-(footprint "XT90PBF"
+(footprint "XT90PBM"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "XT90PB-F-3")
+	(descr "XT90PB-M-3")
 	(tags "Connector")
 	(property "Reference" "J**"
 		(at -5.5 0 0)
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "XT90PBF"
+	(property "Value" "XT90PBM"
 		(at -5.5 0 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -393,15 +393,15 @@
 		(uuid "3fd83c32-06b3-44d1-9671-83994e3185a5")
 	)
 	(embedded_fonts no)
-	(model "XT90PB-F.stp"
+	(model "XT90PB-M.stp"
 		(offset
-			(xyz -25.99999961 -4.949999735 -0.159999994)
+			(xyz -5.5 0 10.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

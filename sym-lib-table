@@ -2,5 +2,5 @@
   (version 7)
   (lib (name "XT30UPB-F")(type "KiCad")(uri "${KIPRJMOD}/Library/XT30UPB-F/XT30UPB-F.kicad_sym")(options "")(descr ""))
   (lib (name "XT60PB-F")(type "KiCad")(uri "${KIPRJMOD}/Library/XT60PB-F/XT60PB-F.kicad_sym")(options "")(descr ""))
-  (lib (name "XT90PB-F")(type "KiCad")(uri "${KIPRJMOD}/Library/XT90PB-F/XT90PB-F.kicad_sym")(options "")(descr ""))
+  (lib (name "XT90PB-M")(type "KiCad")(uri "${KIPRJMOD}/Library/XT90PB-F/XT90PB-F.kicad_sym")(options "")(descr ""))
 )
