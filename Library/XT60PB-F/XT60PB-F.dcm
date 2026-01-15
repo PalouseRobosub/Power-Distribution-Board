@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XT60PB-F
+D Connector: DC supply; socket; female; XT60; 30A; 500V; PIN: 2; THT
+K
+F https://www.tme.eu/Document/aa7a0328674fda4109d00dc748bb5162/XT60UPB-F.pdf
+$ENDCMP
+#
+#End Doc Library
