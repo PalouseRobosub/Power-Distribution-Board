@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "XT30UPB-F")(type "KiCad")(uri "${KIPRJMOD}/Library/XT30UPB-F.kicad_sym")(options "")(descr ""))
+  (lib (name "XT60PB-F")(type "KiCad")(uri "${KIPRJMOD}/Library/XT60PB-F.kicad_sym")(options "")(descr ""))
+  (lib (name "XT90PB-M")(type "KiCad")(uri "${KIPRJMOD}/Library/XT90PB-M.kicad_sym")(options "")(descr ""))
+)
