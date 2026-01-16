@@ -349,7 +349,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "XT90PB-F:XT90PB-F"
+		(symbol "XT90PB-M:XT90PB-M"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -362,7 +362,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "XT90PB-F"
+			(property "Value" "XT90PB-M"
 				(at 16.51 5.08 0)
 				(effects
 					(font
@@ -391,7 +391,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Connector: DC supply; socket; XT90; female; PIN: 2; on PCBs; THT"
+			(property "Description" "Connector: DC supply; socket; XT90; male; PIN: 2; on PCBs; THT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -470,7 +470,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "XT90PB-F_1_1"
+			(symbol "XT90PB-M_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 15.24 -5.08)
@@ -1259,6 +1259,148 @@
 			(project "Power-Distribution-Board"
 				(path "/7a3180e8-37a7-4541-a088-b281e2ca63ea"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XT90PB-M:XT90PB-M")
+		(at 138.43 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28eb7cfa-b7f0-4e84-9cd6-ad5816906d4d")
+		(property "Reference" "J12"
+			(at 154.94 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT90PB-M"
+			(at 154.94 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XT90PBM"
+			(at 154.94 183.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.china-amass.com/biao/439.html"
+			(at 154.94 283.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector: DC supply; socket; XT90; male; PIN: 2; on PCBs; THT"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.7"
+			(at 154.94 483.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 154.94 583.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT90PB-F"
+			(at 154.94 683.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 154.94 783.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 154.94 883.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 154.94 983.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 154.94 1083.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93450265-adef-40a2-8bb3-6ea103904368")
+		)
+		(pin "2"
+			(uuid "0576ece5-8feb-4e2a-8c08-e8b63d7bf6d4")
+		)
+		(instances
+			(project ""
+				(path "/7a3180e8-37a7-4541-a088-b281e2ca63ea"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -2253,148 +2395,6 @@
 			(project "Power-Distribution-Board"
 				(path "/7a3180e8-37a7-4541-a088-b281e2ca63ea"
 					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "XT90PB-F:XT90PB-F")
-		(at 138.43 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a530a786-7135-4ab1-834c-618bfca5c663")
-		(property "Reference" "J12"
-			(at 154.94 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "XT90PB-F"
-			(at 154.94 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "XT90PBF"
-			(at 154.94 183.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.china-amass.com/biao/439.html"
-			(at 154.94 283.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector: DC supply; socket; XT90; female; PIN: 2; on PCBs; THT"
-			(at 138.43 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "19.7"
-			(at 154.94 483.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amass"
-			(at 154.94 583.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "XT90PB-F"
-			(at 154.94 683.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 154.94 783.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 154.94 883.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 154.94 983.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 154.94 1083.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5eb1b9bc-1095-4a12-9e24-c7142f091cdb")
-		)
-		(pin "2"
-			(uuid "f7e3e98d-62d2-4fdc-8c1d-db1a4794e15e")
-		)
-		(instances
-			(project ""
-				(path "/7a3180e8-37a7-4541-a088-b281e2ca63ea"
-					(reference "J12")
 					(unit 1)
 				)
 			)
