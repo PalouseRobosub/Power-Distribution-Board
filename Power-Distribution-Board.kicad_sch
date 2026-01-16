@@ -371,7 +371,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "XT90PBF"
+			(property "Footprint" "XT90PBM"
 				(at 16.51 -94.92 0)
 				(effects
 					(font
@@ -420,7 +420,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "XT90PB-F"
+			(property "Manufacturer_Part_Number" "XT90PB-M"
 				(at 16.51 -594.92 0)
 				(effects
 					(font
@@ -1341,7 +1341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "XT90PB-F"
+		(property "Manufacturer_Part_Number" "XT90PB-M"
 			(at 154.94 683.82 0)
 			(effects
 				(font

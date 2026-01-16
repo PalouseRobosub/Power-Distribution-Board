@@ -44,7 +44,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector: DC supply; socket; XT90; female; PIN: 2; on PCBs; THT"
+		(property "Description" "Connector: DC supply; socket; XT90; male; PIN: 2; on PCBs; THT"
 			(at 0 0 0)
 			(effects
 				(font
